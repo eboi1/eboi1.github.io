@@ -53,7 +53,7 @@ class Footer extends Component {
                 ></span>
               </div>
             </div>
-            <div className="col">
+            {/* <div className="col">
               <div className="copyright py-4 text-center">
                 <div className="container">
                   <small>
@@ -64,7 +64,7 @@ class Footer extends Component {
                   </small>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
