@@ -20,7 +20,7 @@ footer:
   contact:
     - type: email
       name: Email
-      value: yourmail@domain.com
+      value: ericjohnson@ericjtech.com
     - type: wechat
       value: YourWeChatUsername
       link: "#"
@@ -34,10 +34,10 @@ footer:
       link: http://facebook.com/YourFacebookUsername
     - type: linkedin
       name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: https://www.linkedin.com/in/ejohnson5561/
     - type: github
       name: GitHub
-      link: http://github.com/YourGitHubUsername
+      link: http://github.com/eboi1
     - type: dribbble
       name: Dribbble
       link: https://dribbble.com/YourDribbbleUsername
