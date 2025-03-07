@@ -4,6 +4,11 @@ title:  Resistor Quiz
 date:   2024-5-1
 description: To help myself get better at recognizing resistors based on their color codes, I created a website that allows you to practice and quiz yourself on resistor identification. You can view the site
 order_number: 1
+
+image: 
+    src: /assets/img/content/ad_blocker.jpg
+    alt: pihole ad blocker
+order_number: 2
 ---
 
 <br />

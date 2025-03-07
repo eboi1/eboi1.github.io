@@ -7,7 +7,6 @@ description: "Successfully de-Googled an Android smartphone to enhance privacy a
 image: 
     src: /assets/img/content/post-example/Banner.jpg
     alt: banner
-order_number: 1
 ---
 
 <img src="{{ "/assets/img/content/post-example/Banner.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
