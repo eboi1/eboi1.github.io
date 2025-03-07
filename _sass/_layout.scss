@@ -171,3 +171,47 @@
 .page-heading {
   font-size: 20px;
 }
+
+.page-subheading {
+  font-size: 20px;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  // list-style: none;
+  // margin: 0;
+  // padding: 0;
+}
+
+.page-link, .dropdown-toggle {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333; /* Adjust color as needed */
+}
+
+.dropdown, .menu-page {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: fit-content;
+  z-index: 1;
+}
+
+div.dropdown:hover div.dropdown-menu {
+  display: block;
+}
+
+.subpage-link {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333; /* Adjust color as needed */
+}

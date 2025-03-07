@@ -19,7 +19,6 @@
           {% if page.dropdown %}
           <div class="dropdown">
             <a class="dropdown-toggle" href="{{ page_link }}">{{ page.name }}</a>
-            <!-- <a href="#" class="dropdown-toggle">{{ page.name }}</a> -->
             <div class="dropdown-menu">
               {% for subpage in page.dropdown %}
               {% if subpage.slug and subpage.slug != "" and subpage.slug != nil %}
