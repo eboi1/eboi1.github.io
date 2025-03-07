@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Impact of Virtualization on Memory Security Research Paper"
+title:  "Expense Tracker Android App"
 date:   September 2024
 description: "Flutter application designed to allow users to keep track of their expenses in a user-friendly format with multiple options to display expense statistics in the relevant currency."
 
