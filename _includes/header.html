@@ -16,7 +16,7 @@
           {% endif %}
           {% assign page_link = page_link | absolute_url %}
 
-          {% if page.dropdown %}
+          <!-- {% if page.dropdown %}
           <div class="dropdown">
             <a class="dropdown-toggle" href="{{ page_link }}">{{ page.name }}</a>
             <div class="dropdown-menu">
@@ -30,11 +30,11 @@
               {% endfor %}
             </div>
           </div>
-          {% else %}
+          {% else %} -->
             <div class="menu-page">
               <a class="page-link" href="{{ page_link }}">{{ page.name }}</a>
             </div>
-          {% endif %}
+          <!-- {% endif %} -->
         {% endfor %}
       </div>
     </nav>
