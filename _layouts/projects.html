@@ -13,12 +13,14 @@
         {% endif %}
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
+          <br />
+          <p>  
+          </p>
+          <br />
           {% assign groups = site.collections | where_exp: "collection", "collection.permalink contains page.slug" %}
           {% for group in groups %}
             {% if group.label contains "child" %}
             {% else %}
-            <br />
-            <br />
                 <h2 class="page-subheading">{{ group.label | capitalize }}</h2> 
                 {% assign items = site.documents | where_exp: "document", "document.collection == group.label" 
                 | sort: "order_number" %}
