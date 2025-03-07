@@ -8,3 +8,4 @@ profile_picture:
 ---
 
 These are some of the projects I've worked on, both inside and outside of my classes at BSU!
+<br><br><br><br><br>
