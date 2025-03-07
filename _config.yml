@@ -12,14 +12,15 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Work
+    - name: Projects
     - name: Blog
+    - name: Resume
 
 footer:
   show_powered_by: true
   contact:
     - type: email
-      name: Email
+      name: ericjohnson@ericjtech.com
       value: ericjohnson@ericjtech.com
   follow:
     - type: linkedin
