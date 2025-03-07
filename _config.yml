@@ -13,9 +13,6 @@ header:
     - name: Home
       slug: /
     - name: Projects
-      # dropdown:
-      #   - name: Personal
-      #   - name: Academic
     - name: Resume
 
 footer:

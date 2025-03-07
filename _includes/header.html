@@ -7,7 +7,7 @@
     <nav class="site-nav">
       <a href="#" class="menu-icon"></a>
 
-      <div class="menu">
+      <div class="menu" id="menu">
         {% for page in site.header.pages %}
           {% if page.slug and page.slug != "" and page.slug != nil %}
             {% assign page_link = page.slug %}
@@ -15,28 +15,24 @@
             {% assign page_link = "/" | append: page.name | downcase %}
           {% endif %}
           {% assign page_link = page_link | absolute_url %}
-
-          <!-- {% if page.dropdown %}
-          <div class="dropdown">
-            <a class="dropdown-toggle" href="{{ page_link }}">{{ page.name }}</a>
-            <div class="dropdown-menu">
-              {% for subpage in page.dropdown %}
-              {% if subpage.slug and subpage.slug != "" and subpage.slug != nil %}
-                {% assign subpage_link = subpage.slug %}
-              {% else %}
-                {% assign subpage_link = "/" | append: subpage.name | downcase %}
-              {% endif %}
-                <a class="subpage-link" href="{{ subpage_link | prepend: page_link }}">{{ subpage.name }}</a><br>
-              {% endfor %}
-            </div>
-          </div>
-          {% else %} -->
             <div class="menu-page">
               <a class="page-link" href="{{ page_link }}">{{ page.name }}</a>
             </div>
-          <!-- {% endif %} -->
-        {% endfor %}
+\        {% endfor %}
       </div>
     </nav>
   </div>
 </header>
+
+<script>
+  document.getElementById('menu-icon').addEventListener('click', function() {
+    var menu = document.getElementById('menu');
+    if (menu.style.display === 'block') {
+      menu.style.display = 'none';
+      this.style.display = 'block';
+    } else {
+      menu.style.display = 'block';
+      this.style.display = 'none';
+    }
+  });
+</script>
