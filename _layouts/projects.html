@@ -17,6 +17,8 @@
           {% for group in groups %}
             {% if group.label contains "child" %}
             {% else %}
+            <br />
+            <br />
                 <h2 class="page-subheading">{{ group.label | capitalize }}</h2> 
                 {% assign items = site.documents | where_exp: "document", "document.collection == group.label" 
                 | sort: "order_number" %}
