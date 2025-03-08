@@ -33,13 +33,13 @@ footer:
 collections:
   projects:
     output: true
-  academic:
-    output: true
-    permalink: /projects/academic/:title
-    parent: projects
   personal:
     output: true
     permalink: /projects/personal/:title
+    parent: projects
+  academic:
+    output: true
+    permalink: /projects/academic/:title
     parent: projects
 collections_dir: collections
 
