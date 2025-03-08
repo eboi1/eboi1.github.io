@@ -10,16 +10,18 @@ image:
 order_number: 1
 ---
 
-<a href="https://ericjtech.com/projects/academic/expense_flutter_app">
+<!-- <a href="https://ericjtech.com/projects/academic/expense_flutter_app">
     <img src="{{ "/assets/img/content/flutter.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
-</a>
+</a> -->
 <br />
 <br />
 
-<video id="expense-video" width="640" height="360" controls>
-  <source src="{{ site.baseurl }}/assets/videos/functionalityVideo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="video-container">
+    <video id="expense-video" controls autoplay>
+        <source src="{{ site.baseurl }}/assets/videos/functionalityVideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+</div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
