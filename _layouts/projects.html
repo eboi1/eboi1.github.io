@@ -30,7 +30,7 @@
                     <span class="work-text">
                       <strong>{{ item.title }}</strong>
                       &mdash;
-                      {{ item.description }}
+                      {{ item.description | markdownify }}
                     </span>
                   </div>
                 {% endfor %}
