@@ -84,7 +84,7 @@
       clear: both;
       display: none;
       background-color: variables.$color-background;
-      min-width: 10em;
+      max-width: 8em;
       padding-bottom: 5px;
     }
 
@@ -202,7 +202,7 @@
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  width: fit-content;
+  width: min-content;
   z-index: 1;
 }
 
