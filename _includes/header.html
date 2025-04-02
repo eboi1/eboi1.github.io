@@ -5,8 +5,8 @@
     </a>
 
     <nav class="site-nav">
-      <a href="#" class="menu-icon" id="menu-icon"></a>
-      <div class="menu" id="menu">
+      <a href="#" class="menu-icon"></a>
+      <div class="menu">
         {% for page in site.header.pages %}
           {% if page.slug and page.slug != "" and page.slug != nil %}
             {% assign page_link = page.slug %}
@@ -14,38 +14,11 @@
             {% assign page_link = "/" | append: page.name | downcase %}
           {% endif %}
           {% assign page_link = page_link | absolute_url %}
-          <div class="menu-page">
-            <a class="page-link" href="{{ page_link }}">{{ page.name }}</a>
-          </div>
-        {% endfor %}
+            <div class="menu-page">
+              <a class="page-link" href="{{ page_link }}">{{ page.name }}</a>
+            </div>
+          {% endfor %}
       </div>
     </nav>
   </div>
 </header>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const menuIcon = document.getElementById('menu-icon');
-    const menu = document.getElementById('menu');
-
-    menuIcon.addEventListener('click', function (e) {
-      e.preventDefault();
-      if (menu.style.display === 'block') {
-        menu.style.display = 'none';
-        menuIcon.style.display = 'block';
-      } else {
-        menu.style.display = 'block';
-        menuIcon.style.display = 'none';
-      }
-    });
-
-    // Optional: Close the menu when a menu item is clicked
-    const menuLinks = document.querySelectorAll('.menu-page .page-link');
-    menuLinks.forEach(link => {
-      link.addEventListener('click', function () {
-        menu.style.display = 'none';
-        menuIcon.style.display = 'block';
-      });
-    });
-  });
-</script>
