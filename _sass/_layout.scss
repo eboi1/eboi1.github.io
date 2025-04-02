@@ -79,7 +79,7 @@
       background: variables.$color-background url(variables.$base-url + "/assets/img/menu.png") 6px 4px no-repeat;
 
       &.is-open {
-        background: none;
+        background: variables.$color-background; /* Ensure the background is reset */
       }
       background-size: 26px 26px;
     }
