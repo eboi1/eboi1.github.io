@@ -2,13 +2,20 @@
  * Menu
  */
 $("a.menu-icon").on("click", function(event) {
-  var w = $(".menu");
+  var menu = $(".menu");
+  var menuIcon = $(this);
 
-  w.css({
-    display: (w.css("display") === "none")
-      ? "block"
-      : "none"
+  // Toggle the menu visibility
+  menu.css({
+    display: (menu.css("display") === "none") ? "block" : "none"
   });
+
+  // Toggle the menu icon visibility
+  if (menu.css("display") === "block") {
+    menuIcon.css("display", "none"); // Hide the menu icon when the menu is open
+  } else {
+    menuIcon.css("display", "block"); // Show the menu icon when the menu is closed
+  }
 });
 
 /**
