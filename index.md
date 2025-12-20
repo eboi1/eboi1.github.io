@@ -5,7 +5,7 @@ profile_picture:
   alt: website picture
 ---
 <p>
-  Welcome! I am a software and cybersecurity enthusiast. I grew up in Boise, ID where I am currently attending Boise State University pursuing a bachelor's degree in Computer Science with an emphasis in cybersecurity. I graduate in May and am presently searching for positions in IT and Cybersecurity. I currently work as a network operations technician at Corporate IT Solutions. When I'm not working, I love hiking, fishing, snowboarding, dirt biking, playing guitar, and traveling!
+Welcome! I’m a software and cybersecurity enthusiast from Boise, Idaho. I graduated Magna Cum Laude from Boise State University with a bachelor’s degree in Computer Science and an NSA-certified Cybersecurity emphasis. I recently earned my CompTIA Security+ certification and am currently working on software and networking projects while pursuing my Network+ certification. Outside of work, I enjoy hiking, fishing, snowboarding, dirt biking, playing guitar, and traveling.
   </p>
 
 <p style="margin-top: 40px;">
